@@ -25,6 +25,7 @@ import {
     DropdownMenuContent,
     DropdownMenuItem,
     DropdownMenuTrigger,
+    DropdownMenuGroup,
 } from '@/components/ui/dropdown-menu'
 ```
 
@@ -32,9 +33,11 @@ import {
 <DropdownMenu>
     <DropdownMenuTrigger>Open</DropdownMenuTrigger>
     <DropdownMenuContent>
-        <DropdownMenuItem>Item 1</DropdownMenuItem>
-        <DropdownMenuItem>Item 2</DropdownMenuItem>
-        <DropdownMenuItem>Item 3</DropdownMenuItem>
+        <DropdownMenuGroup>
+            <DropdownMenuItem>Item 1</DropdownMenuItem>
+            <DropdownMenuItem>Item 2</DropdownMenuItem>
+            <DropdownMenuItem>Item 3</DropdownMenuItem>
+        </DropdownMenuGroup>
     </DropdownMenuContent>
 </DropdownMenu>
 ```

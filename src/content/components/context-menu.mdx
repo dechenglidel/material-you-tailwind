@@ -25,6 +25,7 @@ import {
     ContextMenuContent,
     ContextMenuItem,
     ContextMenuTrigger,
+    ContextMenuGroup,
 } from '@/components/ui/context-menu'
 ```
 
@@ -32,10 +33,12 @@ import {
 <ContextMenu>
     <ContextMenuTrigger>Right click</ContextMenuTrigger>
     <ContextMenuContent>
-        <ContextMenuItem>Profile</ContextMenuItem>
-        <ContextMenuItem>Billing</ContextMenuItem>
-        <ContextMenuItem>Team</ContextMenuItem>
-        <ContextMenuItem>Subscription</ContextMenuItem>
+        <ContextMenuGroup>
+            <ContextMenuItem>Profile</ContextMenuItem>
+            <ContextMenuItem>Billing</ContextMenuItem>
+            <ContextMenuItem>Team</ContextMenuItem>
+            <ContextMenuItem>Subscription</ContextMenuItem>
+        </ContextMenuGroup>
     </ContextMenuContent>
 </ContextMenu>
 ```
